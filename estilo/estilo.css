@@ -1,0 +1,100 @@
+body{
+    background-image: url("../fondo/demacia-wallpaper.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    color: black;
+}
+main{
+    width: 730px;
+    margin: 80px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.seccion1{
+    background: rgba(255,255,255,0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.seccion2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+}
+
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+input{    
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+       
+}
+
+
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+img{
+    width: 105%;
+}
+
+.seccion3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+}
+
+.btn{
+    border: 1px solid rgba(0, 0, 0, 0.877);
+    padding: 20px;
+    width: 410px;
+    font-family: 'bold', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-size: 300% ;
+}
+
+.btn:hover{
+    background-position: right;
+
+
+}
+
+.btn1{
+    background-image: linear-gradient(to left, #00B7DA, #1253a8, #00B7DA);
+}
